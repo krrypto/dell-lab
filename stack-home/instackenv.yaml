@@ -110,6 +110,7 @@ nodes:
   pm_user: root
   pm_password: calvin
   pm_addr: 172.17.120.31
+  deploy_interface: "direct"
   capabilities: profile:compute-edge1vdu,boot_option:local
 - mac:
   - e4:43:4b:58:54:10
@@ -122,6 +123,7 @@ nodes:
   pm_user: root
   pm_password: calvin
   pm_addr: 172.17.120.13
+  deploy_interface: "direct"
   capabilities: profile:compute-edge1,boot_option:local
 - mac:
   - e4:43:4b:58:52:70
@@ -134,6 +136,7 @@ nodes:
   pm_user: root
   pm_password: calvin
   pm_addr: 172.17.120.37
+  deploy_interface: "direct"
   capabilities: profile:compute-edge2vdu,boot_option:local
 - mac:
   - e4:43:4b:58:29:d0
@@ -146,4 +149,5 @@ nodes:
   pm_user: root
   pm_password: calvin
   pm_addr: 172.17.120.35
+  deploy_interface: "direct"
   capabilities: profile:compute-edge2,boot_option:local
